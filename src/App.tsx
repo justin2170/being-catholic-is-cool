@@ -152,9 +152,9 @@ export default function App() {
                     §{i + 1}
                   </span>
                 </div>
-                {para.title && (
+                {(para.titleEn || para.titleLa) && (
                   <h3 className="font-serif text-xl sm:text-2xl font-semibold leading-tight mb-3 text-accent-700 dark:text-accent-300">
-                    {para.title}
+                    {para.titleLa || para.titleEn}
                   </h3>
                 )}
                 <p className="font-serif text-lg sm:text-xl leading-[1.7] text-red-700 dark:text-red-400">
@@ -174,9 +174,9 @@ export default function App() {
                     §{i + 1}
                   </span>
                 </div>
-                {para.title && (
+                {(para.titleEn || para.titleLa) && (
                   <h3 className="font-serif text-xl sm:text-2xl font-semibold leading-tight mb-3 text-accent-700 dark:text-accent-300">
-                    {para.title}
+                    {para.titleEn || para.titleLa}
                   </h3>
                 )}
                 <p className="font-serif text-lg sm:text-xl leading-[1.7] text-ink-700 dark:text-ink-200">

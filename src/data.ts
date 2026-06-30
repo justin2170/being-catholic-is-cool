@@ -4,7 +4,7 @@ export interface Passage {
   author: string;
   source: string;
   year: string;
-  paragraphs: { title?: string; en: string; la: string }[];
+  paragraphs: { titleEn?: string; titleLa?: string; en: string; la: string }[];
 }
 
 export const passages: Passage[] = [
@@ -50,44 +50,51 @@ export const passages: Passage[] = [
     ],
   },
   {
-    id: 'basic-prayers',
-    title: 'The Basic Prayers',
+    id: 'rosary-prayers',
+    title: 'Rosary Prayers',
     author: 'The Roman Catholic Church',
     source: 'Catholic Devotional Prayers',
     year: 'Various',
     paragraphs: [
       {
-        title: 'The Sign of the Cross',
+        titleEn: 'The Sign of the Cross',
+        titleLa: 'Signum Crucis',
         en: 'In the name of the Father, and of the Son, and of the Holy Spirit. Amen.',
         la: 'In nomine Patris, et Filii, et Spiritus Sancti. Amen.',
       },
       {
-        title: 'The Apostles’ Creed',
+        titleEn: "The Apostles' Creed",
+        titleLa: 'Symbolum Apostolorum',
         en: 'I believe in God, the Father Almighty, Creator of heaven and earth; and in Jesus Christ, His only Son, our Lord; who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried. He descended into hell. On the third day, He rose again; He ascended into heaven and sits at the right hand of God, the Father Almighty. From there, He will come to judge the living and the dead. I believe in the Holy Spirit, the Holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.',
         la: 'Credo in Deum, Patrem omnipotentem, Creatorem caeli et terrae; et in Iesum Christum, Filium eius unicum, Dominum nostrum; qui conceptus est de Spiritu Sancto, natus ex Maria Virgine, passus sub Pontio Pilato, crucifixus, mortuus et sepultus; descendit ad inferos; tertia die resurrexit a mortuis; ascendit ad caelos, sedet ad dexteram Dei Patris omnipotentis; inde venturus est iudicare vivos et mortuos. Credo in Spiritum Sanctum, sanctam Ecclesiam Catholicam, sanctorum communionem, remissionem peccatorum, carnis resurrectionem, vitam aeternam. Amen.',
       },
       {
-        title: 'The Our Father',
+        titleEn: 'The Our Father',
+        titleLa: 'Pater Noster',
         en: 'Our Father, who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us. And do not lead us into temptation, but deliver us from the evil one.',
         la: 'Pater noster, qui es in caelis, sanctificetur nomen tuum; adveniat regnum tuum; fiat voluntas tua, sicut in caelo et in terra. Panem nostrum cotidianum da nobis hodie; et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem, sed libera nos a malo.',
       },
       {
-        title: 'The Hail Mary',
+        titleEn: 'The Hail Mary',
+        titleLa: 'Ave Maria',
         en: 'Hail Mary, full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.',
         la: 'Ave Maria, gratia plena, Dominus tecum; benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.',
       },
       {
-        title: 'The Glory Be',
+        titleEn: 'The Glory Be',
+        titleLa: 'Gloria Patri',
         en: 'Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.',
         la: 'Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen.',
       },
       {
-        title: 'The Fatima Prayer',
+        titleEn: 'The Fatima Prayer',
+        titleLa: 'Oratio Fatimae',
         en: 'O my Jesus, forgive us our sins, save us from the fires of hell, and lead all souls to Heaven, especially those in most need of Your Mercy. (Our Lady at Fatima, 13th July 1917)',
-        la: 'O mi Iesu, dimitte nobis debita nostra, salva nos ab igne inferiori, perduc in caelum omnes animas, praesertim eas, quae misericordiae tuae maxime indigent. (Beata Maria Virgo Fatimae, 13 Iulii 1917)',
+        la: 'O mi Iesu, dimitte nobis debita nostra, salva nos ab igne inferni, omnes animas perduc in caelum, praesertim illas quae maxime indigent misericordia tua. (Beata Maria Virgo Fatimae, 13 Iulii 1917)',
       },
       {
-        title: 'The Hail Holy Queen',
+        titleEn: 'The Hail Holy Queen',
+        titleLa: 'Salve Regina',
         en: 'Hail, holy Queen, Mother of Mercy! Our life, our sweetness, and our hope! To thee do we cry, poor banished children of Eve; to thee do we send up our sighs, mourning and weeping in this valley of tears. Turn, then, most gracious Advocate, thine eyes of mercy toward us; and after this our exile show unto us the blessed fruit of thy womb, Jesus; O clement, O loving, O sweet Virgin Mary.',
         la: 'Salve, Regina, Mater misericordiae! Vita, dulcedo, et spes nostra, salve! Ad te clamamus, exsules filii Evae; ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, Advocata nostra, illos tuos misericordes oculos ad nos converte; et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende; O clemens, O pia, O dulcis Virgo Maria.',
       },
