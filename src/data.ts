@@ -98,6 +98,12 @@ export const passages: Passage[] = [
         en: 'Hail, holy Queen, Mother of Mercy! Our life, our sweetness, and our hope! To thee do we cry, poor banished children of Eve; to thee do we send up our sighs, mourning and weeping in this valley of tears. Turn, then, most gracious Advocate, thine eyes of mercy toward us; and after this our exile show unto us the blessed fruit of thy womb, Jesus; O clement, O loving, O sweet Virgin Mary.',
         la: 'Salve, Regina, Mater misericordiae! Vita, dulcedo, et spes nostra, salve! Ad te clamamus, exsules filii Evae; ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, Advocata nostra, illos tuos misericordes oculos ad nos converte; et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende; O clemens, O pia, O dulcis Virgo Maria.',
       },
+      {
+        titleEn: 'Concluding Prayers',
+        titleLa: 'Orationes Conclusivae',
+        en: 'Pray for us, O Holy Mother of God. That we may be made worthy of the promises of Christ. Let us pray, O God, whose only begotten Son, by His life, death, and resurrection, has purchased for us the rewards of eternal salvation. Grant, we beseech Thee, that while meditating on these mysteries of the most holy Rosary of the Blessed Virgin Mary, that we may both imitate what they contain and obtain what they promise, through Christ our Lord. Amen.',
+        la: 'Ora pro nobis, sancta Dei Genetrix. Ut digni efficiamur promissionibus Christi. Oremus: Deus, cujus Filius unigenitus, vitam, mortem, et resurrectionem suam nobis salutis aeternae praemia comparuit: concede, quaesumus, ut haec mysteria sacratissimo beatae Mariae Virginis Rosario frequentantes, et imitemur quod continent, et quod promittunt assequamur. Per eundem Christum Dominum nostrum. Amen.',
+      },
     ],
   },
   {
