@@ -84,7 +84,7 @@ export const passages: Passage[] = [
       {
         title: 'The Fatima Prayer',
         en: 'O my Jesus, forgive us our sins, save us from the fires of hell, and lead all souls to Heaven, especially those in most need of Your Mercy. (Our Lady at Fatima, 13th July 1917)',
-        la: 'O mi Iesu, dimitte nobis debita nostra, salva nos ab igne inferni, omnes animas perduc in caelum, praesertim illas quae maxime indigent misericordia tua. (Beata Maria Virgo Fatimae, 13 Iulii 1917)',
+        la: 'O mi Iesu, dimitte nobis debita nostra, salva nos ab igne inferiori, perduc in caelum omnes animas, praesertim eas, quae misericordiae tuae maxime indigent. (Beata Maria Virgo Fatimae, 13 Iulii 1917)',
       },
       {
         title: 'The Hail Holy Queen',
