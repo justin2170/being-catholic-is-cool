@@ -108,7 +108,7 @@ export const passages: Passage[] = [
         titleEn: 'Let us pray',
         titleLa: 'Oremus',
         en: 'O God, whose only begotten Son, by His life, death, and resurrection, has purchased for us the rewards of eternal salvation. Grant, we beseech Thee, that while meditating on these mysteries of the most holy Rosary of the Blessed Virgin Mary, that we may both imitate what they contain and obtain what they promise, through Christ our Lord. Amen.',
-        la: 'Deus, cujus Filius unigenitus, vitam, mortem, et resurrectionem suam nobis salutis aeternae praemia comparuit: concede, quaesumus, ut haec mysteria sacratissimo beatae Mariae Virginis Rosario frequentantes, et imitemur quod continent, et quod promittunt assequamur. Per eundem Christum Dominum nostrum. Amen.',
+        la: 'Déus, cújus Unigénitus per vítam, mortem, et resurrectionem Súam nóbis salútis ætérnæ præmia comparávit: concéde, quæsumus: ut hæc mystéria sacratíssimo beátæ Maríæ Vírginis Rosário recoléntes, et imitémur quod cóntinent, et quod promíttunt, assequámur, per eúndem Christum Dóminum nóstrum. Amen.',
       },
     ],
   },
